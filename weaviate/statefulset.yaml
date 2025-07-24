@@ -14,6 +14,8 @@ spec:
       labels:
         app: weaviate
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: node1
       containers:
         - name: weaviate
           image: 192.168.44.130:5000/semitechnologies/weaviate:1.19.0
@@ -83,8 +85,8 @@ spec:
           volumeMounts:
             - mountPath: /var/lib/weaviate
               name: weaviate-data
-              subPath: dify/volumes/weaviate
       volumes:
         - name: weaviate-data
-          persistentVolumeClaim:
-            claimName: difyai-k8s
+          hostPath:
+            path: /root/dify/storage/v1.7.1/weaviate      # 节点上的真实目录
+            type: DirectoryOrCreate

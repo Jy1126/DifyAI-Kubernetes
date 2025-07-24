@@ -13,6 +13,8 @@ spec:
       labels:
         app: postgres
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: node1
       containers:
         - name: postgres
           image: 192.168.44.130:5000/postgres:15-alpine
@@ -42,8 +44,8 @@ spec:
           volumeMounts:
             - mountPath: /var/lib/postgresql/data
               name: db-data
-              subPath: dify/volumes/db/data
       volumes:
         - name: db-data
-          persistentVolumeClaim:
-            claimName: difyai-k8s
+          hostPath:
+            path: /root/dify/storage/v1.7.1/pgsql       # 节点上的真实目录
+            type: DirectoryOrCreate
