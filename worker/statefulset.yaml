@@ -17,6 +17,8 @@ spec:
       labels:
         app: worker
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: node1
       restartPolicy: Always
       containers:
         - name: worker

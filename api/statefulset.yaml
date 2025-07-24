@@ -19,6 +19,8 @@ spec:
       labels:
         app: api
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: node1
       containers:
         - name: api
           image: 192.168.44.130:5000/langgenius/dify-api:1.7.0
