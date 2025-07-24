@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: plugin-daemon
-          image: 'docker.m.daocloud.io/langgenius/dify-plugin-daemon:0.2.0-local'
+          image: 192.168.44.130:5000/langgenius/dify-plugin-daemon:0.2.0-local
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:

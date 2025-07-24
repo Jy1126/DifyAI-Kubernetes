@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: redis
-          image: 'docker.m.daocloud.io/redis:6-alpine'
+          image: 192.168.44.130:5000/redis:6-alpine
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:

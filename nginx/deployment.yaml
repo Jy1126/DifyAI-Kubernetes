@@ -19,7 +19,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: nginx
-        image: 'docker.m.daocloud.io/library/nginx:latest'
+        image: 192.168.44.130:5000/nginx:stable
         imagePullPolicy: IfNotPresent
         envFrom:
           - configMapRef:

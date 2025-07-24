@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: weaviate
-          image: 'docker.m.daocloud.io/semitechnologies/weaviate:1.19.0'
+          image: 192.168.44.130:5000/semitechnologies/weaviate:1.19.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: weaviate-port
