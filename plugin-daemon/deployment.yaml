@@ -16,6 +16,8 @@ spec:
       labels:
         app: plugin-daemon
     spec:
+      nodeSelector:
+        kubernetes.io/hostname: node2
       containers:
         - name: plugin-daemon
           image: 192.168.44.130:5000/langgenius/dify-plugin-daemon:0.2.0-local
@@ -256,8 +258,8 @@ spec:
           volumeMounts:
             - mountPath: /app/storage
               name: plugin-daemon-storage
-              subPath: dify/volumes/plugin_daemon
       volumes:
         - name: plugin-daemon-storage
-          persistentVolumeClaim:
-            claimName: difyai-k8s
+          hostPath:
+            path: /root/dify/storage/v1.7.1/plugin       # 节点上的真实目录
+            type: DirectoryOrCreate               # 不存在就自动 mkdir -p
