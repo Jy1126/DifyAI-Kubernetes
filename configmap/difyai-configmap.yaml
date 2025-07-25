@@ -68,7 +68,7 @@ data:
   POSTGRES_MAINTENANCE_WORK_MEM: "64MB"
   POSTGRES_EFFECTIVE_CACHE_SIZE: "4096MB"
   # ───────── Redis 缓存（Cluster 模式）─────────
-  REDIS_HOST: ""                 # 当 USE_CLUSTERS=true 时此项被忽略
+  REDIS_HOST: "dify-celery-redis-redis-cluster-0.dify-celery-redis-redis-cluster-headless.difyai.svc.cluster.local"                 # 当 USE_CLUSTERS=true 时此项被忽略
   REDIS_PORT: "6379"
   REDIS_USERNAME: ""
   REDIS_PASSWORD: "difyai123456" # 某些旧代码路径仍会读取，保留同一口令
