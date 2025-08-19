@@ -261,5 +261,5 @@ spec:
       volumes:
         - name: plugin-daemon-storage
           hostPath:
-            path: /root/dify/storage/v1.7.1/plugin       # 节点上的真实目录
+            path: /root/dify/storage/v1.7.2/plugin       # 节点上的真实目录
             type: DirectoryOrCreate               # 不存在就自动 mkdir -p

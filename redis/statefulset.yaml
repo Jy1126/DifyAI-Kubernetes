@@ -52,5 +52,5 @@ spec:
       volumes:
         - name: redis-data
           hostPath:
-            path: /root/dify/storage/v1.7.1/redis      # 节点上的真实目录
+            path: /root/dify/storage/v1.7.2/redis      # 节点上的真实目录
             type: DirectoryOrCreate
