@@ -18,6 +18,7 @@ data:
   LOG_FILE_MAX_SIZE: "20"
   LOG_FILE_BACKUP_COUNT: "5"
   LOG_DATEFORMAT: "%Y-%m-%d %H:%M:%S"
+  TZ: "Asia/Shanghai"
   LOG_TZ: "Asia/Shanghai"
   DEBUG: "false"
   FLASK_DEBUG: "false"
