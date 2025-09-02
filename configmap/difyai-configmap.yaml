@@ -25,7 +25,7 @@ data:
   SECRET_KEY: "sk-9f73s3ljTXVcMT3Blb3ljTqtsKiGHXVcMT3BlbkFJLK7U"
   INIT_PASSWORD: ""
   DEPLOY_ENV: "PRODUCTION"
-  CHECK_UPDATE_URL: "https://updates.dify.ai"
+  CHECK_UPDATE_URL: ""
   OPENAI_API_BASE: "https://api.openai.com/v1"
   MIGRATION_ENABLED: "true"
   FILES_ACCESS_TIMEOUT: "300"
