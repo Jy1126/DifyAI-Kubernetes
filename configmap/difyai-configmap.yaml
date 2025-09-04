@@ -15,7 +15,7 @@ data:
   PYTHONIOENCODING: "utf-8"
   LOG_LEVEL: "INFO"
   LOG_FILE: "/bankapp/deploy/work/logs/app/app.log"
-  LOG_FILE_MAX_SIZE: "2048"
+  LOG_FILE_MAX_SIZE: "1"
   LOG_FILE_BACKUP_COUNT: "5"
   LOG_DATEFORMAT: "%Y-%m-%dT%H:%M:%S"
   LOG_FORMAT=%(asctime)s.%(msecs)03d [%(levelname)s] [%(name)s:%(lineno)d] -- %(message)s
