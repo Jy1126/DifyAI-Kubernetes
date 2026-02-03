@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: postgres
-  namespace: difyai
+  namespace: difyai-1.11.4
 spec:
   selector:
     matchLabels:

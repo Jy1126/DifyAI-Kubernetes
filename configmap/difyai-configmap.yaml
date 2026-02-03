@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: difyai-config
-  namespace: difyai
+  namespace: difyai-1.11.4
 data:
   CONSOLE_API_URL: ""
   CONSOLE_WEB_URL: ""

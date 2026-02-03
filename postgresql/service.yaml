@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: postgres
-  namespace: difyai
+  namespace: difyai-1.11.4
 spec:
   selector:
     app: postgres

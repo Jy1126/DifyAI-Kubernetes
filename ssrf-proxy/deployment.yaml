@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ssrf
-  namespace: difyai
+  namespace: difyai-1.11.4
   labels:
     app: ssrf
 spec:

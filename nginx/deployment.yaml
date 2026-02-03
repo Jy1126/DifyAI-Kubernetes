@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: difyai
+  namespace: difyai-1.11.4
   labels:
     app: nginx
 spec:

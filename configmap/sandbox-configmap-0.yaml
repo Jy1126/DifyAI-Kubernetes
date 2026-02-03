@@ -4,4 +4,4 @@ data:
 kind: ConfigMap
 metadata:
   name: sandbox-configmap-0
-  namespace: difyai
+  namespace: difyai-1.11.4
