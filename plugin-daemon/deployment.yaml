@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: plugin-daemon
-  namespace: difyaiv1.11.4
+  namespace: difyaiv1114
   labels:
     app: plugin-daemon
 spec:

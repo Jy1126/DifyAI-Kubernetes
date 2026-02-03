@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx
-  namespace: difyaiv1.11.4
+  namespace: difyaiv1114
 spec:
   selector:
     app: nginx

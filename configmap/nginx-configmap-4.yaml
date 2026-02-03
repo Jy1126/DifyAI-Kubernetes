@@ -47,4 +47,4 @@ metadata:
   annotations:
     use-subpath: "true"
   name: nginx-configmap-4
-  namespace: difyaiv1.11.4
+  namespace: difyaiv1114

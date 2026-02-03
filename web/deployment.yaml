@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web
-  namespace: difyaiv1.11.4
+  namespace: difyaiv1114
 spec:
   replicas: 2
   revisionHistoryLimit: 1

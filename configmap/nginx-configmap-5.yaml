@@ -4,4 +4,4 @@ data:
 kind: ConfigMap
 metadata:
   name: nginx-configmap-5
-  namespace: difyaiv1.11.4
+  namespace: difyaiv1114
