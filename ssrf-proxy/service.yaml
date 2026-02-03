@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: ssrf
-  namespace: difyai-1.11.4
+  namespace: difyaiv1.11.4
 spec:
   type: NodePort
   selector:

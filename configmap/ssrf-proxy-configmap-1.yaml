@@ -48,4 +48,4 @@ metadata:
   annotations:
     use-subpath: "true"
   name: ssrf-proxy-configmap-1
-  namespace: difyai-1.11.4
+  namespace: difyaiv1.11.4

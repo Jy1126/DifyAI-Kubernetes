@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sandbox
-  namespace: difyai-1.11.4
+  namespace: difyaiv1.11.4
   labels:
     app: sandbox
 spec:

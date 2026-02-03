@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: api
     app: api
-  namespace: difyai-1.11.4
+  namespace: difyaiv1.11.4
 spec:
   replicas: 2
   revisionHistoryLimit: 1
