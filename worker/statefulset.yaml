@@ -22,7 +22,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: worker
-          image: 192.168.44.130:5000/langgenius/dify-api:1.7.2
+          image: 192.168.44.130:5000/langgenius/dify-api:release-e-1.11.4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5001
