@@ -9,7 +9,7 @@ data:
   SERVICE_API_URL: ""
   APP_API_URL: ""
   APP_WEB_URL: ""
-  TRIGGER_URL: "https://bibliotaphic-fabian-draftiest.ngrok-free.dev"
+  TRIGGER_URL: "http://192.168.44.15"
   FILES_URL: ""
   LANG: "C.UTF-8"
   LC_ALL: "C.UTF-8"
