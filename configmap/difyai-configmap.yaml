@@ -9,7 +9,7 @@ data:
   SERVICE_API_URL: ""
   APP_API_URL: ""
   APP_WEB_URL: ""
-  TRIGGER_URL: "https://trigger.ai-plugin.io"
+  TRIGGER_URL: "https://bibliotaphic-fabian-draftiest.ngrok-free.dev"
   FILES_URL: ""
   LANG: "C.UTF-8"
   LC_ALL: "C.UTF-8"
