@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: postgres
-  namespace: difyaiv1114
+  namespace: difyaiv1142
 spec:
   selector:
     matchLabels:
@@ -47,5 +47,5 @@ spec:
       volumes:
         - name: db-data
           hostPath:
-            path: /root/dify/storage/v1.11.4/pgsql       # 节点上的真实目录
+            path: /root/dify/storage/v1.14.2/pgsql       # 节点上的真实目录
             type: DirectoryOrCreate

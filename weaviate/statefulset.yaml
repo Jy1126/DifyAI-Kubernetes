@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: weaviate
-  namespace: difyaiv1114
+  namespace: difyaiv1142
 spec:
   selector:
     matchLabels:
@@ -88,5 +88,5 @@ spec:
       volumes:
         - name: weaviate-data
           hostPath:
-            path: /root/dify/storage/v1.11.4/weaviate      # 节点上的真实目录
+            path: /root/dify/storage/v1.14.2/weaviate      # 节点上的真实目录
             type: DirectoryOrCreate

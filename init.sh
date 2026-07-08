@@ -1,4 +1,4 @@
-kubectl create namespace difyaiv1114
+kubectl create namespace difyaiv1142
 
 kubectl create -f configmap/difyai-configmap.yaml
 kubectl create -f configmap/nginx-configmap-0.yaml -f configmap/nginx-configmap-1.yaml -f configmap/nginx-configmap-2.yaml -f configmap/nginx-configmap-3.yaml -f configmap/nginx-configmap-4.yaml -f configmap/nginx-configmap-5.yaml
