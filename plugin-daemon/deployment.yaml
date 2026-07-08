@@ -20,7 +20,7 @@ spec:
         kubernetes.io/hostname: node2
       containers:
         - name: plugin-daemon
-          image: 192.168.44.130:5000/langgenius/dify-plugin-daemon:0.5.3-local
+          image: 192.168.44.130:5000/langgenius/dify-plugin-daemon:0.6.1-local
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
