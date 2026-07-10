@@ -17,4 +17,7 @@ data:
       socks5: ''
       http: ''
       https: '''
-  
+kind: ConfigMap
+metadata:
+  name: sandbox-configmap-1
+  namespace: difyaiv1142
